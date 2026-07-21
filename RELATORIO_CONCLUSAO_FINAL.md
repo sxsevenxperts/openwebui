@@ -183,7 +183,7 @@ Source:
   Image: ghcr.io/open-webui/open-webui:main
 
 Environment:
-  WEBUI_SECRET_KEY: 4pcmusjIQZTi9cK-2WQqA_fmfK-ybqMEZiK-bpzK0XI
+  WEBUI_SECRET_KEY: <WEBUI_SECRET_KEY>
   PORT: 8080 (corrigido de 80)
   SCARF_NO_ANALYTICS: true
   DO_NOT_TRACK: true
