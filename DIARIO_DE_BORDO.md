@@ -291,5 +291,35 @@ HTTPS: Sim (Traefik + Let's Encrypt)
 
 ---
 
-**Documento encerrado em**: 2026-07-21 02:35 UTC  
-**Status final**: Aguardando validação HTTP 200 após port fix
+---
+
+### 2026-07-21 ~ 03:00 UTC - FORK E PUBLICAÇÃO DE DOCS
+
+**Operação de fork**:
+1. ✅ Repositório antigo `sxsevenxperts/openwebui` (4 commits, 18KB) — excluído
+2. ✅ Fork server-side criado: `open-webui/open-webui` → `sxsevenxperts/openwebui`
+   - Tamanho: 385.4MB, 4960+ arquivos
+   - API: `POST /repos/open-webui/open-webui/forks`
+3. ✅ Upload via GitHub API (git tree/blob/commit):
+   - `Dockerfile` ✅
+   - `.dockerignore` ✅
+   - `DEPLOY_EASYPANEL.md` ✅
+   - `RELATORIO_CONCLUSAO_FINAL.md` ✅
+   - `ROADMAP.md` ✅ (sanitizado)
+   - `DIARIO_DE_BORDO.md` ✅ (sanitizado)
+   - `README_DEPLOY.md` ✅ (sanitizado)
+
+**Sanitização de credenciais**:
+- GitHub token `ghp_6XAGWOy1...` → `ghp_XXXXXXXX...`
+- WEBUI_SECRET_KEY → `<WEBUI_SECRET_KEY>`
+- EasyPanel password → `<EASYPANEL_PASSWORD>`
+- EasyPanel email → `<EASYPANEL_EMAIL>`
+- API token → `<EASYPANEL_API_TOKEN>`
+- GitHub secret scanning: nenhum bloqueio após sanitização
+
+**Commit no fork**: `fc0c84b2b15262068e942826e19e7f8adb1102a7`
+
+---
+
+**Documento encerrado em**: 2026-07-21 03:00 UTC  
+**Status final**: Fork completo + docs publicados. Aguardando validação HTTP 200 após port fix.

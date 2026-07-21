@@ -72,6 +72,8 @@
 | 2026-07-21 | Dockerização completada | Claude Haiku 4.5 |
 | 2026-07-21 | Deploy EasyPanel via API | Claude Haiku 4.5 |
 | 2026-07-21 | Documentação inicial | Claude Haiku 4.5 |
+| 2026-07-21 | Fork open-webui/open-webui → sxsevenxperts/openwebui (385MB, server-side) | Claude Haiku 4.5 |
+| 2026-07-21 | Docs sanitizados e publicados no fork (credenciais substituídas por placeholders) | Claude Haiku 4.5 |
 
 ---
 
